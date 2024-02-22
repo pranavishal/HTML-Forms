@@ -3,12 +3,21 @@ body {
     font-family: sans-serif;
 }
 
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
 form {
     width: 30rem;
     margin: 3rem auto;
     background-color: rgb(255, 255, 255);
     padding: 1rem;
     border-radius: 6px;
+}
+
+textarea {
+    resize: vertical;
 }
 label {
     margin-bottom: 0.5rem;
